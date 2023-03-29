@@ -1,130 +1,100 @@
 {
-	"info": {
-		"_postman_id": "564e7a01-08bc-4097-9bb9-3a928244c00b",
-		"name": "Brad Traversy - Nest Crash Course3",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "26616331"
-	},
-	"item": [
-		{
-			"name": "GET localhost:3000/items",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:3000/items",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"items"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "GET localhost:3000/items/:id",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:3000/items/6423b4118e845ee5150ee778",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"items",
-						"6423b4118e845ee5150ee778"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "DELETE localhost:3000/items/:id",
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "localhost:3000/items/6423b4118e845ee5150ee778",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"items",
-						"6423b4118e845ee5150ee778"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "PUT localhost:3000/items/:id",
-			"request": {
-				"method": "PUT",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"name\": \"Item 69+\",\n    \"description\": \"An updated fun item\",\n    \"qty\": 69\n}"
-				},
-				"url": {
-					"raw": "localhost:3000/items/6423b53597caa558c7f25cbd",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"items",
-						"6423b53597caa558c7f25cbd"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "POST localhost:3000/items",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"name\": \"Item 69\",\n    \"description\": \"A fun item\",\n    \"qty\": 69\n}"
-				},
-				"url": {
-					"raw": "localhost:3000/items",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"items"
-					],
-					"query": [
-						{
-							"key": "zoldseg",
-							"value": "sargarepa",
-							"disabled": true
-						}
-					]
-				}
-			},
-			"response": []
-		}
-	]
+  "info": {
+    "_postman_id": "564e7a01-08bc-4097-9bb9-3a928244c00b",
+    "name": "Brad Traversy - Nest Crash Course3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "26616331"
+  },
+  "item": [
+    {
+      "name": "GET localhost:3000/items",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/items",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["items"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET localhost:3000/items/:id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/items/6423b4118e845ee5150ee778",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["items", "6423b4118e845ee5150ee778"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "DELETE localhost:3000/items/:id",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/items/6423b4118e845ee5150ee778",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["items", "6423b4118e845ee5150ee778"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT localhost:3000/items/:id",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Item 69+\",\n    \"description\": \"An updated fun item\",\n    \"qty\": 69\n}"
+        },
+        "url": {
+          "raw": "localhost:3000/items/6423b53597caa558c7f25cbd",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["items", "6423b53597caa558c7f25cbd"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST localhost:3000/items",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Item 69\",\n    \"description\": \"A fun item\",\n    \"qty\": 69\n}"
+        },
+        "url": {
+          "raw": "localhost:3000/items",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["items"]
+        }
+      },
+      "response": []
+    }
+  ]
 }
